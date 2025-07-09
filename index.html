@@ -1,67 +1,119 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>CAP Garland, LLC</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MARYAM ET SES SOEURS</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
       margin: 0;
-      padding: 0;
-      background-color: #f0f0f0;
-      color: #333;
+      font-family: 'Arial', sans-serif;
+      line-height: 1.6;
     }
     header {
-      background-color: #003366;
+      background: linear-gradient(to right, crimson, darkblue);
       color: white;
-      padding: 30px 20px;
       text-align: center;
+      padding: 2rem;
     }
     section {
-      max-width: 800px;
-      margin: 40px auto;
-      padding: 0 20px;
+      padding: 3rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      border-bottom: 1px solid #ccc;
     }
-    h1, h2 {
-      color: #003366;
+    section:nth-child(even) {
+      background-color: #f0f0f0;
     }
-    .contact {
-      background: #fff;
-      padding: 20px;
-      border-left: 5px solid #003366;
-      margin-top: 30px;
+    .content {
+      flex: 1 1 45%;
+      max-width: 600px;
+    }
+    .content h2 {
+      color: darkred;
+    }
+    .content p {
+      margin: 1rem 0;
+    }
+    .image {
+      flex: 1 1 45%;
+    }
+    .image img {
+      max-width: 100%;
+      border-radius: 10px;
     }
     footer {
-      background-color: #003366;
+      background-color: #222;
       color: white;
       text-align: center;
-      padding: 15px;
-      margin-top: 50px;
+      padding: 1rem;
     }
   </style>
 </head>
 <body>
-  <header>
-    <h1>CAP Garland, LLC</h1>
-    <p>Private Investment Fund</p>
-  </header>
 
-  <section>
-    <h2>About Us</h2>
-    <p>CAP Garland, LLC is a Washington-based private investment fund focused on delivering value through diversified investment strategies.</p>
+<header>
+  <h1>MARYAM ET SES SOEURS</h1>
+  <p>Email: contact@mases.shop | Tél: +212646593048</p>
+</header>
 
-    <h2>Contact</h2>
-    <div class="contact">
-      <p><strong>Address:</strong> 915 W 2nd Ave, Spokane, WA 99201</p>
-      <p><strong>Email:</strong> <a href="mailto:ryanberg@capgarland.shop">ryanberg@capgarland.shop</a></p>
-      <p><strong>Phone:</strong> (509) 822-3850</p>
-    </div>
-  </section>
+<section>
+  <div class="content">
+    <h2>Nos Valeurs</h2>
+    <p>Nous croyons en la puissance de la solidarité féminine.</p>
+    <p>Chaque projet est mené avec passion et intégrité.</p>
+    <p>Le respect et l'engagement sont au cœur de notre travail.</p>
+    <p>Notre objectif : un avenir meilleur pour toutes.</p>
+  </div>
+  <div class="image">
+    <img src="https://source.unsplash.com/600x400/?team,women" alt="Nos Valeurs" />
+  </div>
+</section>
 
-  <footer>
-    &copy; 2025 CAP Garland, LLC. All rights reserved.
-  </footer>
+<section>
+  <div class="content">
+    <h2>Nos Services</h2>
+    <p>Accompagnement personnalisé pour les femmes entrepreneures.</p>
+    <p>Ateliers de formation et de développement personnel.</p>
+    <p>Conseils en gestion, finance, et communication.</p>
+    <p>Un réseau solide de soutien et de collaboration.</p>
+  </div>
+  <div class="image">
+    <img src="https://source.unsplash.com/600x400/?business,training" alt="Nos Services" />
+  </div>
+</section>
+
+<section>
+  <div class="content">
+    <h2>Nos Réalisations</h2>
+    <p>Plus de 50 projets portés par des femmes accompagnées avec succès.</p>
+    <p>Des événements locaux et internationaux de sensibilisation.</p>
+    <p>Des histoires inspirantes de réussite collective.</p>
+    <p>Une présence active dans plusieurs régions du Maroc.</p>
+  </div>
+  <div class="image">
+    <img src="https://source.unsplash.com/600x400/?success,women" alt="Nos Réalisations" />
+  </div>
+</section>
+
+<section>
+  <div class="content">
+    <h2>Contactez-Nous</h2>
+    <p>Nous sommes à votre écoute pour toute collaboration ou question.</p>
+    <p>Envoyez-nous un message ou passez nous voir !</p>
+    <p>Email: contact@mases.shop</p>
+    <p>Téléphone: +212646593048</p>
+  </div>
+  <div class="image">
+    <img src="https://source.unsplash.com/600x400/?contact,help" alt="Contactez-nous" />
+  </div>
+</section>
+
+<footer>
+  &copy; 2025 MARYAM ET SES SOEURS. Tous droits réservés.
+</footer>
+
 </body>
 </html>
